@@ -1,6 +1,8 @@
 <?php 
+$path = dirname(__FILE__); 
+
 // load
-require_once($_SERVER["DOCUMENT_ROOT"]."/nc_ad_devel/inc/inc.php");
+require_once($path."/inc/inc.php");
 
 // declare error handler
 $error = new ErrorHandler();
